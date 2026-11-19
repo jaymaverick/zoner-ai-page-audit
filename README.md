@@ -1,3 +1,5 @@
+**Live demo:** https://zoner-ai-page-audit-r5wannnnpatavoyhdnd87w.streamlit.app/
+
 # Zoner AI page review: prototype for task A1
 
 A working prototype that **audits zoner.fi pages for SEO and GEO, has Claude
