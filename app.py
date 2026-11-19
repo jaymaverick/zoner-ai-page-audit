@@ -376,9 +376,11 @@ with tab_export:
         result = publish.apply_edits(page, approved)
         save(APPROVED_DIR / name, result)
 
-        st.subheader("WordPress draft update")
-        st.caption("Prototype: nothing is sent. With real access this payload goes to the "
-                   "endpoint below as a draft, and a person publishes it from WordPress.")
+        st.subheader("Update for the staging site")
+        st.caption("Prototype: nothing is sent. With real access this payload goes to a staging "
+                   "copy of zoner.fi; a person checks the page there and moves it to the live site. "
+                   "Until then, use this as the checklist for applying the changes by hand in "
+                   "WordPress.")
         st.code(result["endpoint"])
         cols = st.columns(3)
         cols[0].metric("Applied", len(result["applied"]))
@@ -399,7 +401,7 @@ with tab_export:
             st.html(result["payload"]["content"])
         st.download_button("Download payload (JSON)",
                            json.dumps(result["payload"], ensure_ascii=False, indent=2),
-                           file_name=f"draft-{name}")
+                           file_name=f"staging-update-{name}")
 
         st.subheader("After publishing")
         st.caption("Records the change date, so Search Console can compare before and after "

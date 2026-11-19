@@ -1,9 +1,18 @@
-"""Step 5: turn approved edits into a WordPress draft update.
+"""Step 5: turn approved edits into an update for a STAGING copy of the site.
 
 Used by app.py (Export tab). Nothing is sent to WordPress in the prototype:
-the output is the exact payload a real version would send to
-POST /wp-json/wp/v2/pages/<id> with status "draft", using the AI user's
-Application Password. A human then publishes from the WordPress editor.
+the output is the payload a real version would send to the staging site's
+POST /wp-json/wp/v2/pages/<id>, using a dedicated AI user's Application
+Password. A person reviews the page on staging and moves it to production.
+
+Why staging and not "save as draft" on the live site: sending
+status "draft" to an already published page doesn't create a draft copy, it
+UNPUBLISHES the live page. (Found while explaining the export; the first
+version of this file had exactly that bug.) The payload therefore has no
+status field: the page keeps the status it already has.
+
+Without staging, the safe alternative is a duplicate-and-merge workflow,
+e.g. the "Rewrite & Republish" feature of the Duplicate Post plugin.
 
 Two honest limitations, both visible in the output:
   - Edits to blocks containing links or formatting are listed for manual
@@ -52,7 +61,7 @@ def apply_edits(page: dict, approved: list[dict]) -> dict:
     """Apply approved edits to a copy of the page.
 
     `approved` items are edits with their final text in "new" and the
-    check results in "issues". Returns the draft payload plus anything
+    check results in "issues". Returns the staging payload plus anything
     that has to be done by hand.
     """
     soup = BeautifulSoup(page["content_html"], "html.parser")
@@ -87,8 +96,10 @@ def apply_edits(page: dict, approved: list[dict]) -> dict:
             applied.append(e)
 
     return {
-        "endpoint": f"POST /wp-json/wp/v2/pages/{page['id']}",
-        "payload": {"status": "draft", "content": str(soup), "meta": meta},
+        "endpoint": f"POST https://<staging-site>/wp-json/wp/v2/pages/{page['id']}",
+        # No "status": the page keeps its current status. On a published page,
+        # "status": "draft" would take the live page offline.
+        "payload": {"content": str(soup), "meta": meta},
         "inserted_block_markup": inserted_markup,
         "applied": applied,
         "manual": manual,
