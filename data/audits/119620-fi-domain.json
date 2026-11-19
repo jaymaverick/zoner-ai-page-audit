@@ -1,0 +1,66 @@
+{
+  "id": 119620,
+  "slug": "fi-domain",
+  "url": "https://www.zoner.fi/verkkotunnus/fi-domain/",
+  "audited_at": "2026-11-19",
+  "counts": {
+    "low": 5
+  },
+  "findings": [
+    {
+      "check": "title.brand",
+      "severity": "low",
+      "message": "Title doesn't end with the standard brand suffix '- Zoner Oy'.",
+      "evidence": {
+        "title": "fi-domain | Rekisteröi omasi 10,80 €/vuosi | zoner.fi"
+      }
+    },
+    {
+      "check": "links.anchor_text",
+      "severity": "low",
+      "message": "1 links use generic text like 'täältä'.",
+      "evidence": {
+        "examples": [
+          "täältä → https://www.traficom.fi/fi/viestinta/fi-verkkotunnukset/varmista-fi-verkkotunnuksesi-lainmukaisuus"
+        ]
+      }
+    },
+    {
+      "check": "links.empty_text",
+      "severity": "low",
+      "message": "6 links have no readable name; screen readers announce just 'link' and Google gets no hint about the target page.",
+      "evidence": {
+        "examples": [
+          "/verkkotunnus/fi-domain/",
+          "/verkkotunnus/se-domain/",
+          "/verkkotunnus/eu-domain/",
+          "/verkkotunnus/com-domain/",
+          "/verkkotunnus/net-domain/"
+        ]
+      }
+    },
+    {
+      "check": "schema.geo",
+      "severity": "low",
+      "message": "No FAQPage schema; Q&A markup helps AI answers quote the page.",
+      "evidence": {
+        "found": [
+          "Article",
+          "BreadcrumbList",
+          "ImageObject",
+          "ListItem",
+          "Organization",
+          "Person",
+          "WebPage",
+          "WebSite"
+        ]
+      }
+    },
+    {
+      "check": "geo.entity",
+      "severity": "low",
+      "message": "No clear 'Zoner is…' sentence; AI answers need to know who is speaking.",
+      "evidence": {}
+    }
+  ]
+}

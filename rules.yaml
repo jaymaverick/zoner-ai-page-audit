@@ -1,0 +1,114 @@
+# Audit rules. Edit these, not the code.
+# (This is also the file to change live in the follow-up session.)
+
+title:
+  min_chars: 30
+  max_chars: 60            # Google cuts titles at roughly 580 px, about 60 chars
+  brand_suffix: " - Zoner Oy" # every title should end with exactly this (most common on the site today)
+
+meta_description:
+  min_chars: 120
+  max_chars: 160
+
+headings:
+  h1_exactly: 1
+
+content:
+  min_words: 300
+
+images:
+  max_missing_alt_ratio: 0.2   # flag if more than 20% of images have no alt text
+
+links:
+  min_internal: 3
+  generic_anchor_texts:        # link texts that tell Google and AI nothing
+    - lue lisää
+    - klikkaa tästä
+    - tästä
+    - täältä
+    - lisätietoja
+    - read more
+    - click here
+
+dates:
+  # Years in title/H1/URL go stale. Flag a year that has passed, and the
+  # current year from this month onward.
+  warn_current_year_from_month: 11
+
+schema:
+  expect_types:                # schema types every page should have
+    - Organization
+    - WebPage
+  geo_types:                   # types that help AI answers; missing = suggestion
+    - FAQPage
+
+pages:
+  # Which pages to snapshot. Pages matching these (regex on the URL path)
+  # aren't content pages: thank-you pages, cart steps, logins, legal texts,
+  # test pages. They're hidden by default when choosing pages for copy work,
+  # but they still show up if you untick "hide non-content pages", e.g. to
+  # check whether they're wrongly indexed.
+  non_content_patterns:
+    - "/kiitos"
+    - "/thank-you"
+    - "^/kauppa/"
+    - "/oma-tili/"
+    - "/kirjaudu/"
+    - "/legal/"
+    - "testpage"
+    - "-lomake/"
+    - "^/siivous-"
+    - "(tietosuoja|rekisteri)seloste"
+    - "tietosuojailmoitus"
+    - "evastekaytanto"
+    - "sopimusehdot"
+  languages:                   # URL prefix -> language; everything else is Finnish
+    "/en/": en
+    "/sv/": sv
+  fetch_delay_seconds: 1.0     # pause between page fetches, to be polite to the server
+
+gsc:
+  # Rough industry-average CTR by Google position. Used only to RANK pages
+  # by opportunity, never to promise results. Replace with Zoner's own
+  # averages once real Search Console data is connected.
+  expected_ctr_by_position:
+    1: 0.28
+    2: 0.15
+    3: 0.11
+    4: 0.08
+    5: 0.07
+    6: 0.05
+    7: 0.04
+    8: 0.03
+    9: 0.03
+    10: 0.025
+    default: 0.01
+  striking_distance: [4, 15]   # positions where small improvements pay off most
+  # Brand searches: people looking for Zoner by name find it anyway, so they
+  # are left out of opportunity figures and Claude's prompt. Matched as whole
+  # words, case-insensitive.
+  brand_terms: ["zoner", "wp one", "wp.one", "wpone", "wp-one"]
+  # Two or more Zoner pages shown for the same search = they compete.
+  # Each page needs at least this many impressions for the query to count,
+  # so a stray appearance doesn't create noise.
+  cannibalization_min_impressions: 50
+  queries_in_prompt: 15        # top queries (by impressions) Claude sees per page
+  settle_days: 14              # wait after a change before measuring
+  window_days: 28              # length of the before/after comparison windows
+
+protected:
+  # Wording an edit must never remove. Added after review: Claude suggested
+  # simplifying "yhden (1) vuoden" to "vuoden", but the number in brackets is
+  # deliberate contract wording that makes "only one year" unambiguous.
+  phrases:
+    - "yhden (1)"
+  patterns:                    # regex: a number written out AND in digits, e.g. "kolme (3)"
+    - "\\b\\w+ \\(\\d+\\)"
+
+geo:
+  min_question_headings: 2     # headings phrased as questions ("Mikä…?", "Paljonko…?")
+  faq_heading_words:           # a heading containing these counts as an FAQ section
+    - usein kysyt
+    - ukk
+    - faq
+  entity_statement_regex: "Zoner (on|Oy on)"  # a clear "Zoner is…" sentence

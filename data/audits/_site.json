@@ -1,0 +1,14 @@
+[
+  {
+    "check": "site.title_suffix",
+    "severity": "low",
+    "message": "Pages end their titles differently; one consistent brand suffix looks more professional in search results.",
+    "evidence": {
+      "suffixes": {
+        "| zoner.fi": 1,
+        "(none)": 2,
+        "- Zoner Oy": 2
+      }
+    }
+  }
+]

@@ -1,0 +1,50 @@
+{
+  "id": 191740,
+  "slug": "paljonko-oma-domain-maksaa-2026",
+  "url": "https://www.zoner.fi/verkkotunnus/paljonko-oma-domain-maksaa-2026/",
+  "audited_at": "2026-11-17",
+  "counts": {
+    "medium": 1,
+    "low": 2
+  },
+  "findings": [
+    {
+      "check": "title.length",
+      "severity": "medium",
+      "message": "Title is 68 characters; Google cuts it after about 60.",
+      "evidence": {
+        "title": "Paljonko domain maksaa? Verkkotunnuksen hinta vuonna 2026 - Zoner Oy",
+        "chars": 68
+      }
+    },
+    {
+      "check": "schema.geo",
+      "severity": "low",
+      "message": "No FAQPage schema; Q&A markup helps AI answers quote the page.",
+      "evidence": {
+        "found": [
+          "Article",
+          "BreadcrumbList",
+          "ImageObject",
+          "ListItem",
+          "Organization",
+          "Person",
+          "WebPage",
+          "WebSite"
+        ]
+      }
+    },
+    {
+      "check": "dates.year",
+      "severity": "low",
+      "message": "Year 2026 in the title, url, h1 is or will soon be out of date (changing the URL later needs a redirect).",
+      "evidence": {
+        "where": [
+          "title",
+          "url",
+          "h1"
+        ]
+      }
+    }
+  ]
+}

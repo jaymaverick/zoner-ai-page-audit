@@ -1,0 +1,173 @@
+{
+  "endpoint": "POST /wp-json/wp/v2/pages/186021",
+  "payload": {
+    "status": "draft",
+    "content": "\n<h2 class=\"gb-headline gb-headline-5f13173c gb-headline-text\" id=\"paras-webhotelli-verkkosivuillesi-2026\">Paras webhotelli verkkosivuillesi 2026</h2>\n<p class=\"wp-block-paragraph\">Kun aikeissa on rakentaa verkkosivut – oli se blogi, yrityksen sivusto tai verkkokauppa, yksi keskeisimmistä päätöksistä on valita paras mahdollinen webhotelli. Oikea webhotelli vaikuttaa sivuston nopeuteen, käytettävyyteen ja luotettavuuteen — ja siten myös hakukonenäkyvyyteen. Paras webhotelli on se, joka sopii sivustosi tarpeisiin ja budjettiin. Tärkeimmät valintaperusteet ovat nopeus, käytettävyys, turvallisuus, skaalautuvuus, asiakastuki ja hinta. Zoner Oy on kotimainen webhotellipalvelujen tarjoaja, jonka palvelimet sijaitsevat Telia Helsinki Data Centerissä Helsingin Pitäjänmäellä. Kerromme, miten sopiva palvelu valitaan ja millaisia webhotelleja Zoner tarjoaa.</p>\n<p class=\"wp-block-paragraph\">Lisäksi voit hyödyntää vertailusivustoja, kuten <a href=\"https://webhotelli-vertailu.fi/\" rel=\"noopener\" target=\"_blank\">Webhotelli Vertailu</a> selvittääksesi tilannekohtaisesti, mikä palvelu olisi paras tai sopivin juuri sinulle.</p>\n<h2 class=\"wp-block-heading\" id=\"mita-tarkoittaa-paras-webhotelli-kriteerit\"><strong>Mitä tarkoittaa “paras” webhotelli? – kriteerit</strong></h2>\n<p class=\"wp-block-paragraph\">Se, mikä palvelu on paras, riippuu pitkälti tarpeistasi — mutta alla on tekijöitä, joihin kannattaa kiinnittää huomiota:</p>\n<figure class=\"wp-block-table\"><table class=\"has-fixed-layout\"><thead><tr><td><strong>Kriteeri</strong></td><td><strong>Miksi se on tärkeää?</strong></td><td><strong>Tarkista nämä</strong></td></tr></thead><tbody><tr><td><strong>Nopeus ja suorituskyky</strong></td><td>Hidas sivusto karkottaa kävijöitä, heikentää käyttökokemusta ja vaikuttaa negatiivisesti hakusijoituksiin</td><td>SSD-levyt, välimuisti, palvelimen kuormitus, testitulokset (Pingdom, GTmetrix)</td></tr><tr><td><strong>Käytettävyys / uptime / luotettavuus</strong></td><td>Sivuston tulee olla tavoitettavissa jatkuvasti</td><td>SLA, palvelinten redundanssi, kokemukset käyttäjiltä</td></tr><tr><td><strong>Turvallisuus</strong></td><td>SSL, palomuurit, päivitetyt järjestelmät, varmuuskopiointi</td><td>Ilmainen SSL (Let’s Encrypt), automaattiset varmuuskopiot tms.</td></tr><tr><td><strong>Skaalautuvuus</strong></td><td>Kasvavalle sivustolle täytyy pystyä nostamaan resursseja</td><td>Mahdollisuus päivittää pakettia, tuki suuremmille liikennemäärille</td></tr><tr><td><strong>Asiakastuki ja dokumentaatio</strong></td><td>Virhetilanteissa nopea apu on elintärkeä</td><td>Suomalainen tuki, yhteydenottotavat (chat, puhelin, sähköposti), vasteajat</td></tr><tr><td><strong>Hallintapaneeli ja käyttömukavuus</strong></td><td>Helppo hallinta säästää aikaa ja virheitä</td><td>DirectAdmin, cPanel, oma hallintapaneeli, “1‑click” asennukset WP:lle ym.</td></tr><tr><td><strong>Hinta / hinnoittelumalli</strong></td><td>Laadukas palvelu ei saa olla liian kallis, mutta liian halpakin palvelu saattaa käydä kalliiksi</td><td>Kiinteät hinnat, tarjoukset, piilokulut, hinnoittelun selkeys</td></tr></tbody></table></figure>\n<p class=\"wp-block-paragraph\">Kun palvelu täyttää nämä perusvaatimukset, voidaan lähteä vertailemaan vaihtoehtoja.</p>\n<h3 class=\"wp-block-heading\" id=\"kotimaiset-vs-kansainvaliset-webhotellit\"><strong>Kotimaiset vs. kansainväliset webhotellit</strong></h3>\n<p class=\"wp-block-paragraph\">Kotimaiset edut:</p>\n<ul class=\"wp-block-list\">\n<li>Palvelimet Suomessa → pienempi latenssi Suomen kävijöille</li>\n<li>Suomenkielinen asiakastuki</li>\n<li>Verotus- ja tietosuojakäytännöt suomalaisille yrityksille selkeät</li>\n<li>Yleensä helpompi kommunikoida ongelmatilanteissa</li>\n</ul>\n<p class=\"wp-block-paragraph\">Kansainväliset kilpailuedut:</p>\n<ul class=\"wp-block-list\">\n<li>Laajempi infrastruktuuri, enemmän datakeskuksia ympäri maailmaa</li>\n<li>Joitain teknisiä erikoisratkaisuja (esim. pilvipohjainen skaalautuvuus)</li>\n<li>Hinnoittelun laajempi skaala</li>\n</ul>\n<p class=\"wp-block-paragraph\">Usein hyvä kompromissi on valita kotimainen webhotelli, jos pääasiallinen kävijäkunta on Suomessa, ja tarvittaessa kansainvälinen hybridi, jos sivustolla on laajempi yleisö.</p>\n<p class=\"wp-block-paragraph\">Vertailusivustojen mukaan Suomessa nopeimpien palveluntarjoajien joukossa ovat olleet mm. <strong>Polar55</strong>, <strong>Domainhotelli</strong> ja <strong>Zoner</strong>.</p>\n<h2 class=\"wp-block-heading\" id=\"esimerkkivertailu-muutamia-suositeltuja-webhotelleja\"><strong>Esimerkkivertailu: muutamia suositeltuja webhotelleja</strong></h2>\n<p class=\"wp-block-paragraph\">Alla muutamia esimerkkejä suositelluista vaihtoehdoista (ei tyhjentävä lista). Nämä vertailut kannattaa päivittää tuoreilla testeillä ja omilla kriteereillä:</p>\n<ul class=\"wp-block-list\">\n<li>Zoner Webhotelli – kotimainen vaihtoehto, jossa kaikki <a href=\"/webhotellit\">paketit</a> sisältävät domainin, SSL:n ja sähköpostin.</li>\n<li>Polar55 – sijoittunut kärkeen latausaikojen perusteella vertailusivun mukaan.</li>\n<li>Domainhotelli – vakaa kotimainen vaihtoehto, vertailusivustot näyttävät sen usein keskitason suorituskyvyssä mutta luotettavana valintana.</li>\n<li>Hostingpalvelu.fi – erinomainen vaihtoehto suomalaisille käyttäjille, tarjoaa hyvän teknisen paketin eri tasoissa.</li>\n<li>Kansainväliset vaihtoehdot kuten Hostinger, Bluehost, SiteGround – hyviä valintoja, erityisesti jos tarvitset globaalia skaalautuvuutta. Lue artikkeli: <a href=\"https://global.techradar.com/fi-fi/web-hosting/paras-webhotelli\" rel=\"noreferrer noopener\" target=\"_blank\">TechRadar</a>.</li>\n</ul>\n<figure class=\"gb-block-image gb-block-image-7a274237\"><img alt=\"\" class=\"gb-image gb-image-7a274237\" decoding=\"async\" height=\"1326\" sizes=\"(max-width: 2046px) 100vw, 2046px\" src=\"https://www.zoner.fi/wp-content/uploads/2025/10/Screenshot-2025-10-13-at-13.42.06.png\" srcset=\"https://www.zoner.fi/wp-content/uploads/2025/10/Screenshot-2025-10-13-at-13.42.06.png 2046w, https://www.zoner.fi/wp-content/uploads/2025/10/Screenshot-2025-10-13-at-13.42.06-300x194.png 300w, https://www.zoner.fi/wp-content/uploads/2025/10/Screenshot-2025-10-13-at-13.42.06-1024x664.png 1024w, https://www.zoner.fi/wp-content/uploads/2025/10/Screenshot-2025-10-13-at-13.42.06-768x498.png 768w, https://www.zoner.fi/wp-content/uploads/2025/10/Screenshot-2025-10-13-at-13.42.06-1536x995.png 1536w, https://www.zoner.fi/wp-content/uploads/2025/10/Screenshot-2025-10-13-at-13.42.06-600x389.png 600w\" title=\"Screenshot 2025-10-13 at 13.42.06\" width=\"2046\"/>\n<figcaption class=\"gb-headline gb-headline-f5b74d66 gb-headline-text\"><em>Verkosta löytyy useita sivustoja, jotka webhotelli vertailuja. Tässä esimerkki <a href=\"http://www.webhotellivertailu2.fi\" rel=\"noopener\" target=\"_blank\">Webhotellivertailu</a></em></figcaption>\n</figure>\n<h2 class=\"wp-block-heading\" id=\"miten-valita-itselle-paras-webhotelli-tarkistuslista\"><strong>Miten valita itselle paras webhotelli? Tarkistuslista</strong>!</h2>\n<p class=\"wp-block-paragraph\">Seuraava lista auttaa sinua arvioimaan, mikä palvelu sopii sivustollesi:</p>\n<ol class=\"wp-block-list\" start=\"1\">\n<li>Kuinka paljon liikennettä odotat sivustolle?</li>\n<li>Tarvitsetko paljon tallennustilaa (kuvat, videot)?</li>\n<li>Onko WordPress tai muu CMS keskeinen — vaatiiko automaattiasennuksia?</li>\n<li>Tarvitsetko useita verkkotunnuksia tai alidomaineja?</li>\n<li>Kuinka tärkeää on suomalainen tuki ja käyttöliittymä?</li>\n<li>Onko sivustollasi erityisiä vaatimuksia (esim. suuri tietokanta, reaaliaikaiset sovellukset)?</li>\n<li>Voiko pakettia päivittää helposti ilman katkoksia?</li>\n<li>Onko palveluntarjoajalla referenssejä, asiakasarvosteluja ja testituloksia (nopeus, uptime)?</li>\n</ol>\n<p class=\"wp-block-paragraph\">Kun vastaat näihin kysymyksiin itsellesi rehellisesti, voit rajata vaihtoehdot muutamaan lupaavaan palveluun ja tehdä lopullisen vertailun.</p>\n<h2 class=\"wp-block-heading\" id=\"zonerin-webhotellitarjonta-ja-miksi-se-voi-olla-paras-vaihtoehto\"><strong>Zonerin webhotellitarjonta ja miksi se voi olla paras vaihtoehto</strong>?</h2>\n<p class=\"wp-block-paragraph\">Zonerilla on tarjolla useita webhotellipaketteja, jotka erottuvat mm. seuraavilla ominaisuuksilla:</p>\n<ul class=\"wp-block-list\">\n<li>Kaikki paketit sisältävät <a href=\"https://www.zoner.fi/verkkotunnus/mika-on-domain/\">domainin</a>, <a href=\"https://www.zoner.fi/tietoturva/ssl-sertifikaatti/\">SSL-sertifikaatin</a> ja Installatron-asennusohjelman.</li>\n<li><a href=\"/meista/laitetilat/\">Palvelimet</a> pyörivät Helsingin Pitäjänmäellä sijaitsevassa Telia Helsinki Data Center</li>\n<li>Zonerin <a href=\"/webhotellit/webhotelli-vertailu/\">webhotelli vertailu -sivu</a> auttaa valitsemaan sopivan paketin tarpeidesi mukaan.</li>\n<li>Selkeä hinnoittelu: eri paketit eroavat levytilan, liikennöinnin ja sähköpostimahdollisuuksien mukaan.</li>\n<li>Helppo skaalautuvuus: voit siirtyä suurempaan pakettiin, kun sivustosi kasvaa.</li>\n</ul>\n<p class=\"wp-block-paragraph\">Näiden ominaisuuksien vuoksi Zoner pystyy tarjoamaan hyvän tasapainon suorituskyvyn, helppokäyttöisyyden ja kotimaisuuden välillä — mikä tekee siitä vahvan ehdokkaan “parhaaksi webhotelliksi” Suomen kontekstissa.</p>\n<p class=\"wp-block-paragraph\">Voit sisällyttää artikkeliin linkin <a href=\"https://www.zoner.fi/webhotellit/webhotelli-vertailu?utm_source=chatgpt.com\">Zoner Webhotelli vertailusivulle</a>.</p>\n<h3 class=\"wp-block-heading\" id=\"vinkit-webhotellin-vaihtoon-jos-nykyinen-ei-riita\"><strong>Vinkit webhotellin vaihtoon (jos nykyinen ei riitä)</strong></h3>\n<p class=\"wp-block-paragraph\">Näin vaihtaminen sujuu mahdollisimman kitkattomasti:</p>\n<ul class=\"wp-block-list\">\n<li>Varmuuskopioi kaikki tiedostot ja tietokannat ennen siirtoa.</li>\n<li>Tarkista DNS‑ajastukset — TTL-arvot kannattaa pienentää ennen siirtoa varmistaaksesi nopean päivityksen.</li>\n<li>Testaa sivusto uudessa ympäristössä ennen DNS-päivitystä.</li>\n<li>Seuraa siirron jälkeen sivuston toimivuutta: virheet, suorituskyky, lomakkeet, sähköpostitoiminnallisuus.</li>\n<li>Jos mahdollista, tee siirto ruuhkattomana aikana, jolloin kävijöitä on vähemmän.</li>\n<li>Jos kuitenkin pidät webhotellisi samalla palveluntarjoajalla, paketin päivittäminen isompaan onnistuu usein helposti ottamalla yhteyden yrityksen asiakastukeen tai myyntiin.</li>\n</ul>\n<h3 class=\"wp-block-heading\" id=\"yhteenveto\"><strong>Yhteenveto</strong></h3>\n<p class=\"wp-block-paragraph\">“Paras webhotelli” ei ole yksi ja sama kaikille — optimaalinen ratkaisu riippuu sivustosi liikennemäärästä, käyttötarkoituksesta, budjetista ja halutusta tuesta. Tärkeimpiä valintakriteereitä ovat suorituskyky, turvallisuus, skaalautuvuus ja käytettävyys. Suomessa kotimainen toimija tarjoaa usein parhaan yhdistelmän suorituskykyä ja tukea.</p><h2>Usein kysytyt kysymykset webhotellin valinnasta</h2>\n<h3>Mikä on paras webhotelli?</h3>\n<p>Paras webhotelli riippuu sivustosi tarpeista. Vertaa ainakin nopeutta, käytettävyyttä, turvallisuutta, skaalautuvuutta, asiakastukea ja hintaa. Jos suurin osa kävijöistä on Suomessa, kotimainen webhotelli on usein hyvä valinta.</p>\n<h3>Miten webhotelleja kannattaa vertailla?</h3>\n<p>Arvioi ensin, kuinka paljon liikennettä ja tallennustilaa sivustosi tarvitsee. Tarkista sitten nopeuden ja käytettävyyden testitulokset, asiakastuen yhteydenottotavat ja hinnoittelun selkeys. Vertailusivustot, kuten Webhotellivertailu, auttavat rajaamaan vaihtoehtoja.</p>\n<h3>Kannattaako valita kotimainen vai kansainvälinen webhotelli?</h3>\n<p>Kotimaisen webhotellin palvelimet ovat Suomessa, joten viive on suomalaisille kävijöille pienempi ja asiakastuki toimii suomeksi. Kansainvälinen webhotelli sopii, jos tarvitset datakeskuksia ympäri maailmaa tai pilvipohjaista skaalautuvuutta.</p>\n<h3>Mitä Zonerin webhotellipaketit sisältävät?</h3>\n<p>Kaikki Zonerin webhotellipaketit sisältävät domainin, SSL-sertifikaatin ja Installatron-asennusohjelman. Paketit eroavat toisistaan levytilan, liikennöinnin ja sähköpostimahdollisuuksien osalta. Hinnat: [TARKISTA: pakettien nimet ja hinnat].</p>\n<h3>Missä Zonerin palvelimet sijaitsevat?</h3>\n<p>Zonerin palvelimet sijaitsevat Telia Helsinki Data Centerissä Helsingin Pitäjänmäellä.</p>\n<h3>Voiko webhotellipaketin vaihtaa isompaan?</h3>\n<p>Voi. Zonerilla voit siirtyä suurempaan pakettiin, kun sivustosi kasvaa.</p>\n<p class=\"wp-block-paragraph\">Tutustu <strong><a href=\"https://www.zoner.fi/webhotellit/webhotelli-vertailu?utm_source=chatgpt.com\">Zonerin webhotelli vertailuun</a></strong> ja vertaa Zonerin eri paketteja omiin tarpeisiisi.</p>\n",
+    "meta": {
+      "rank_math_title": "Mikä on paras webhotelli? Vertailu ja valintavinkit – Zoner Oy",
+      "rank_math_description": "Mikä webhotelli kannattaa valita? Vertaa nopeutta, käytettävyyttä, turvallisuutta, asiakastukea ja hintaa. Katso tarkistuslista ja Zonerin webhotellien vertailu."
+    }
+  },
+  "inserted_block_markup": [
+    {
+      "after": "B80",
+      "markup": "<!-- wp:heading -->\n<h2 class=\"wp-block-heading\">Usein kysytyt kysymykset webhotellin valinnasta</h2>\n<!-- /wp:heading -->\n\n<!-- wp:heading {\"level\":3} -->\n<h3 class=\"wp-block-heading\">Mikä on paras webhotelli?</h3>\n<!-- /wp:heading -->\n\n<!-- wp:paragraph -->\n<p>Paras webhotelli riippuu sivustosi tarpeista. Vertaa ainakin nopeutta, käytettävyyttä, turvallisuutta, skaalautuvuutta, asiakastukea ja hintaa. Jos suurin osa kävijöistä on Suomessa, kotimainen webhotelli on usein hyvä valinta.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:heading {\"level\":3} -->\n<h3 class=\"wp-block-heading\">Miten webhotelleja kannattaa vertailla?</h3>\n<!-- /wp:heading -->\n\n<!-- wp:paragraph -->\n<p>Arvioi ensin, kuinka paljon liikennettä ja tallennustilaa sivustosi tarvitsee. Tarkista sitten nopeuden ja käytettävyyden testitulokset, asiakastuen yhteydenottotavat ja hinnoittelun selkeys. Vertailusivustot, kuten Webhotellivertailu, auttavat rajaamaan vaihtoehtoja.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:heading {\"level\":3} -->\n<h3 class=\"wp-block-heading\">Kannattaako valita kotimainen vai kansainvälinen webhotelli?</h3>\n<!-- /wp:heading -->\n\n<!-- wp:paragraph -->\n<p>Kotimaisen webhotellin palvelimet ovat Suomessa, joten viive on suomalaisille kävijöille pienempi ja asiakastuki toimii suomeksi. Kansainvälinen webhotelli sopii, jos tarvitset datakeskuksia ympäri maailmaa tai pilvipohjaista skaalautuvuutta.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:heading {\"level\":3} -->\n<h3 class=\"wp-block-heading\">Mitä Zonerin webhotellipaketit sisältävät?</h3>\n<!-- /wp:heading -->\n\n<!-- wp:paragraph -->\n<p>Kaikki Zonerin webhotellipaketit sisältävät domainin, SSL-sertifikaatin ja Installatron-asennusohjelman. Paketit eroavat toisistaan levytilan, liikennöinnin ja sähköpostimahdollisuuksien osalta. Hinnat: [TARKISTA: pakettien nimet ja hinnat].</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:heading {\"level\":3} -->\n<h3 class=\"wp-block-heading\">Missä Zonerin palvelimet sijaitsevat?</h3>\n<!-- /wp:heading -->\n\n<!-- wp:paragraph -->\n<p>Zonerin palvelimet sijaitsevat Telia Helsinki Data Centerissä Helsingin Pitäjänmäellä.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:heading {\"level\":3} -->\n<h3 class=\"wp-block-heading\">Voiko webhotellipaketin vaihtaa isompaan?</h3>\n<!-- /wp:heading -->\n\n<!-- wp:paragraph -->\n<p>Voi. Zonerilla voit siirtyä suurempaan pakettiin, kun sivustosi kasvaa.</p>\n<!-- /wp:paragraph -->"
+    }
+  ],
+  "applied": [
+    {
+      "type": "replace",
+      "target": "title",
+      "old": "Mikä on paras webhotelli juuri sinulle 2026? - Zoner Oy",
+      "new": "Mikä on paras webhotelli? Vertailu ja valintavinkit – Zoner Oy",
+      "reason": "Removes the year that expires in weeks and adds 'vertailu' for the 'webhotelli vertailu' query (2,600 impressions, position 11.3). The H2 in B1 still carries 2026 for the 'paras webhotelli 2026' query; update it each January.",
+      "fixes": [
+        "dates.year",
+        "geo.freshness"
+      ],
+      "status": "WARN",
+      "issues": [
+        {
+          "check": "length",
+          "level": "WARN",
+          "message": "New title is 62 characters (limit 30-60)."
+        },
+        {
+          "check": "length",
+          "level": "WARN",
+          "message": "New title doesn't end with '- Zoner Oy'."
+        }
+      ]
+    },
+    {
+      "type": "replace",
+      "target": "meta_description",
+      "old": "Kun aikeissa on rakentaa kotisivut – oli se blogi, yrityksen sivusto tai verkkokauppa, yksi keskeisimmistä päätöksistä on valita paras webhotelli.",
+      "new": "Mikä webhotelli kannattaa valita? Vertaa nopeutta, käytettävyyttä, turvallisuutta, asiakastukea ja hintaa. Katso tarkistuslista ja Zonerin webhotellien vertailu.",
+      "reason": "The current description restates the problem without a benefit, and CTR is only 0.6–1.9%. The new one answers the question, lists the criteria and uses the wording of 'mikä webhotelli kannattaa' and 'webhotelli vertailu'.",
+      "fixes": [
+        "geo.answer_first"
+      ],
+      "status": "WARN",
+      "issues": [
+        {
+          "check": "length",
+          "level": "WARN",
+          "message": "New meta_description is 161 characters (limit 120-160)."
+        }
+      ]
+    },
+    {
+      "type": "replace",
+      "target": "B2",
+      "old": "Tässä artikkelissa pureudutaan siihen, mitä tarkoittaa “paras webhotelli”, miten valita sopiva palvelu ja miksi Zoner voi olla erinomainen valinta.",
+      "new": "Paras webhotelli on se, joka sopii sivustosi tarpeisiin ja budjettiin. Tärkeimmät valintaperusteet ovat nopeus, käytettävyys, turvallisuus, skaalautuvuus, asiakastuki ja hinta. Zoner Oy on kotimainen webhotellipalvelujen tarjoaja, jonka palvelimet sijaitsevat Telia Helsinki Data Centerissä Helsingin Pitäjänmäellä. Kerromme, miten sopiva palvelu valitaan ja millaisia webhotelleja Zoner tarjoaa.",
+      "reason": "Puts a direct, quotable answer in the first paragraph and adds a 'Zoner is…' sentence built only from facts already on the page (B45, B65), so AI answers know who is speaking.",
+      "fixes": [
+        "geo.entity",
+        "geo.answer_first",
+        "geo.entity_clarity"
+      ],
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "type": "replace",
+      "target": "B41",
+      "old": "jos sivustolla oli laajampi yleisö.",
+      "new": "jos sivustolla on laajempi yleisö.",
+      "reason": "Fixes a tense error ('oli' → 'on') that makes the sentence read as clumsy machine Finnish.",
+      "fixes": [
+        "geo.citability"
+      ],
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "type": "insert_after",
+      "target": "B80",
+      "old": "",
+      "new": "<h2>Usein kysytyt kysymykset webhotellin valinnasta</h2>\n<h3>Mikä on paras webhotelli?</h3>\n<p>Paras webhotelli riippuu sivustosi tarpeista. Vertaa ainakin nopeutta, käytettävyyttä, turvallisuutta, skaalautuvuutta, asiakastukea ja hintaa. Jos suurin osa kävijöistä on Suomessa, kotimainen webhotelli on usein hyvä valinta.</p>\n<h3>Miten webhotelleja kannattaa vertailla?</h3>\n<p>Arvioi ensin, kuinka paljon liikennettä ja tallennustilaa sivustosi tarvitsee. Tarkista sitten nopeuden ja käytettävyyden testitulokset, asiakastuen yhteydenottotavat ja hinnoittelun selkeys. Vertailusivustot, kuten Webhotellivertailu, auttavat rajaamaan vaihtoehtoja.</p>\n<h3>Kannattaako valita kotimainen vai kansainvälinen webhotelli?</h3>\n<p>Kotimaisen webhotellin palvelimet ovat Suomessa, joten viive on suomalaisille kävijöille pienempi ja asiakastuki toimii suomeksi. Kansainvälinen webhotelli sopii, jos tarvitset datakeskuksia ympäri maailmaa tai pilvipohjaista skaalautuvuutta.</p>\n<h3>Mitä Zonerin webhotellipaketit sisältävät?</h3>\n<p>Kaikki Zonerin webhotellipaketit sisältävät domainin, SSL-sertifikaatin ja Installatron-asennusohjelman. Paketit eroavat toisistaan levytilan, liikennöinnin ja sähköpostimahdollisuuksien osalta. Hinnat: [TARKISTA: pakettien nimet ja hinnat].</p>\n<h3>Missä Zonerin palvelimet sijaitsevat?</h3>\n<p>Zonerin palvelimet sijaitsevat Telia Helsinki Data Centerissä Helsingin Pitäjänmäellä.</p>\n<h3>Voiko webhotellipaketin vaihtaa isompaan?</h3>\n<p>Voi. Zonerilla voit siirtyä suurempaan pakettiin, kun sivustosi kasvaa.</p>",
+      "reason": "Adds a short FAQ that uses the page's top queries and only facts already on the page. Mark this section up with FAQPage JSON-LD when publishing to also resolve the schema.geo finding.",
+      "fixes": [
+        "geo.faq",
+        "geo.question_coverage",
+        "geo.citability"
+      ],
+      "status": "WARN",
+      "issues": [
+        {
+          "check": "placeholder",
+          "level": "WARN",
+          "message": "Needs a fact from a human: [TARKISTA: pakettien nimet ja hinnat]"
+        }
+      ]
+    }
+  ],
+  "manual": [
+    {
+      "type": "replace",
+      "target": "B42",
+      "old": "Vertailusivustojen mukaan Suomessa nopeimpien palveluntarjoajien joukossa ovat olleet mm. Polar55, Domainhotelli ja Zoner.",
+      "new": "Vertailusivustojen [TARKISTA: lähde ja testin päivämäärä] mukaan Suomen nopeimpia webhotelleja ovat olleet muun muassa Polar55, Domainhotelli ja Zoner.",
+      "reason": "A speed claim with no source or date is hard for AI to cite and may be outdated. The placeholder asks the team to name the source and test date. The wording is also lighter.",
+      "fixes": [
+        "geo.citability",
+        "geo.freshness"
+      ],
+      "status": "WARN",
+      "issues": [
+        {
+          "check": "placeholder",
+          "level": "WARN",
+          "message": "Needs a fact from a human: [TARKISTA: lähde ja testin päivämäärä]"
+        },
+        {
+          "check": "links",
+          "level": "WARN",
+          "message": "Block B42 contains strong (e.g. []). Replacing its text would remove them; apply this edit by hand in the editor."
+        }
+      ],
+      "why_manual": "block has links/formatting; edit in the block editor"
+    },
+    {
+      "type": "replace",
+      "target": "B50",
+      "old": "Verkosta löytyy useita sivustoja, jotka webhotelli vertailuja. Tässä esimerkki Webhotellivertailu",
+      "new": "Verkosta löytyy useita sivustoja, jotka vertailevat webhotelleja. Yksi esimerkki on Webhotellivertailu.",
+      "reason": "The caption is missing its verb and is ungrammatical. Visible errors lower trust for readers and AI systems.",
+      "fixes": [
+        "geo.citability"
+      ],
+      "status": "WARN",
+      "issues": [
+        {
+          "check": "links",
+          "level": "WARN",
+          "message": "Block B50 contains a, em (e.g. ['http://www.webhotellivertailu2.fi']). Replacing its text would remove them; apply this edit by hand in the editor."
+        }
+      ],
+      "why_manual": "block has links/formatting; edit in the block editor"
+    },
+    {
+      "type": "replace",
+      "target": "B70",
+      "old": "Voit sisällyttää artikkeliin linkin Zoner Webhotelli vertailusivulle.",
+      "new": "Katso pakettien erot Zonerin webhotellien vertailusivulta.",
+      "reason": "This is a leftover drafting instruction ('you can include a link…') published as body text. It becomes a real call to action. Check that the link points to the comparison page.",
+      "fixes": [
+        "geo.freshness",
+        "geo.entity_clarity"
+      ],
+      "status": "WARN",
+      "issues": [
+        {
+          "check": "links",
+          "level": "WARN",
+          "message": "Block B70 contains a (e.g. ['https://www.zoner.fi/webhotellit/webhotelli-vertailu?utm_source=chatgpt.com']). Replacing its text would remove them; apply this edit by hand in the editor."
+        }
+      ],
+      "why_manual": "block has links/formatting; edit in the block editor"
+    }
+  ]
+}

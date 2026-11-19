@@ -1,0 +1,9 @@
+requests
+beautifulsoup4
+pyyaml
+jsonschema
+streamlit
+pandas
+anthropic   # only needed for Claude API mode
+# For real Search Console data (gsc.py fetch), also:
+#   google-api-python-client google-auth

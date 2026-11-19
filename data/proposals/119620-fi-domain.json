@@ -1,0 +1,485 @@
+{
+  "id": 119620,
+  "slug": "fi-domain",
+  "url": "https://www.zoner.fi/verkkotunnus/fi-domain/",
+  "model": "claude.ai chat",
+  "usage": {
+    "source": "pasted from Claude chat"
+  },
+  "blocks": [
+    {
+      "id": "B1",
+      "tag": "p",
+      "text": "Valitse kotimainen verkkotunnus"
+    },
+    {
+      "id": "B2",
+      "tag": "h2",
+      "text": "Kotimainen.fi-domain tekee yrityksestä luotettavan"
+    },
+    {
+      "id": "B3",
+      "tag": "p",
+      "text": "Fi-domain on Suomen internet-maatunnus, joka on ollut käytössä aina vuodesta 1986. Domain.fi on Liikenne- ja viestintävirasto Traficomin (ent. Ficora) hallinnoima."
+    },
+    {
+      "id": "B4",
+      "tag": "p",
+      "text": ".fi-verkkotunnus on luonteva valinta suomalaisille toimijoille, yrityksille ja yhteisöille. Fi-domain toimii hyvin myös sellaisille yrityksille, jotka haluavat laajentaa toimintaansa Suomeen tai vaikkapa avata oman sivuston suomalaisille käyttäjille."
+    },
+    {
+      "id": "B5",
+      "tag": "p",
+      "text": "Olemme koonneet tälle sivulle tärkeää tietoa fi-domainiin ja sen rekisteröintiin liittyen. Autamme mielellämme kaikissa verkkotunnuksiin liittyvissä asioissa. Yleisimpiin kysymyksiin löydät vastauksen verkkotunnus -sivulta."
+    },
+    {
+      "id": "B6",
+      "tag": "p",
+      "text": "tyytyväistä asiakasta"
+    },
+    {
+      "id": "B7",
+      "tag": "p",
+      "text": "asiakaspalvelu"
+    },
+    {
+      "id": "B8",
+      "tag": "p",
+      "text": "arvosana asiakkailta"
+    },
+    {
+      "id": "B9",
+      "tag": "p",
+      "text": "tyytyväisyystakuu"
+    },
+    {
+      "id": "B10",
+      "tag": "p",
+      "text": ".fi"
+    },
+    {
+      "id": "B11",
+      "tag": "p",
+      "text": "10,80 €"
+    },
+    {
+      "id": "B12",
+      "tag": "p",
+      "text": "1. vuosi 10,80 €"
+    },
+    {
+      "id": "B13",
+      "tag": "p",
+      "text": "Sen jälkeen 26,40 €"
+    },
+    {
+      "id": "B14",
+      "tag": "p",
+      "text": ".se"
+    },
+    {
+      "id": "B15",
+      "tag": "p",
+      "text": "18,30 €"
+    },
+    {
+      "id": "B16",
+      "tag": "p",
+      "text": "1. vuosi 18,30 €"
+    },
+    {
+      "id": "B17",
+      "tag": "p",
+      "text": "Sen jälkeen 36,60 €"
+    },
+    {
+      "id": "B18",
+      "tag": "p",
+      "text": ".eu"
+    },
+    {
+      "id": "B19",
+      "tag": "p",
+      "text": "12,00 €"
+    },
+    {
+      "id": "B20",
+      "tag": "p",
+      "text": "1. vuosi 12,00 €"
+    },
+    {
+      "id": "B21",
+      "tag": "p",
+      "text": "Sen jälkeen 24,00 €"
+    },
+    {
+      "id": "B22",
+      "tag": "p",
+      "text": ".com"
+    },
+    {
+      "id": "B23",
+      "tag": "p",
+      "text": "14,25 €"
+    },
+    {
+      "id": "B24",
+      "tag": "p",
+      "text": "1. vuosi 14,25 €"
+    },
+    {
+      "id": "B25",
+      "tag": "p",
+      "text": "Sen jälkeen 28,50 €"
+    },
+    {
+      "id": "B26",
+      "tag": "p",
+      "text": ".net"
+    },
+    {
+      "id": "B27",
+      "tag": "p",
+      "text": "13,20 €"
+    },
+    {
+      "id": "B28",
+      "tag": "p",
+      "text": "1. vuosi 13,20 €"
+    },
+    {
+      "id": "B29",
+      "tag": "p",
+      "text": "Sen jälkeen 26,40 €"
+    },
+    {
+      "id": "B30",
+      "tag": "p",
+      "text": ".org"
+    },
+    {
+      "id": "B31",
+      "tag": "p",
+      "text": "12,00 €"
+    },
+    {
+      "id": "B32",
+      "tag": "p",
+      "text": "1. vuosi 12,00 €"
+    },
+    {
+      "id": "B33",
+      "tag": "p",
+      "text": "Sen jälkeen 24,00 €"
+    },
+    {
+      "id": "B34",
+      "tag": "p",
+      "text": "Näin pääset alkuun"
+    },
+    {
+      "id": "B35",
+      "tag": "h2",
+      "text": "Rekisteröi oma.fi-domain helposti viralliselta välittäjältä!"
+    },
+    {
+      "id": "B36",
+      "tag": "p",
+      "text": "Olemme Traficomin valtuuttama virallinen.fi-verkkotunnusvälittäjä ja hoidamme puolestasi kaiken tarpeellisen verkkotunnuksen rekisteröintiin liittyen."
+    },
+    {
+      "id": "B37",
+      "tag": "p",
+      "text": "Verkkotunnusvälittäjä hoitaa asiakkaan puolesta verkkotunnuksen rekisteröimisen, verkkotunnukseen liitettyjen tietojen päivittämisen, verkkotunnuksen uusimisen, verkkotunnuksen siirtämisen käyttäjältä toiselle ja verkkotunnuksen irtisanomisen."
+    },
+    {
+      "id": "B38",
+      "tag": "p",
+      "text": "Fi-domainit ovat voineet sisältää ääkkösiä eli å-, ä- ja ö-kirjaimia aina vuodesta 2005 lähtien. Suosittelemme kuitenkin aina rekisteröimään ensisijaisen verkkotunnuksen ilman ääkkösiä."
+    },
+    {
+      "id": "B39",
+      "tag": "p",
+      "text": "Huomaathan, että esimerkiksi verkkotunnukset ääkköset.fi ja aakkoset.fi ovat kaksi erillistä domainia eli ne täytyy rekisteröidä erikseen."
+    },
+    {
+      "id": "B40",
+      "tag": "p",
+      "text": "Fi-verkkotunnukset voi helposti siirtää niin kutsutun välittäjänvaihtoavaimen avulla. Saat välittäjänvaihtoavaimen nykyiseltä palveluntarjoajaltasi."
+    },
+    {
+      "id": "B41",
+      "tag": "p",
+      "text": "Voit ilmoittaa sen jo tilausvaiheessa. Tällöin.fi-domain siirtyy nopeammin Zonerille ja pääset hallinnoimaan sitä palveluidemme kautta."
+    },
+    {
+      "id": "B42",
+      "tag": "p",
+      "text": "Yleensä kannattaa rekisteröidä.fi-domainin lisäksi muut tunnetut päätteet, esimerkiksi.com,.org tai.se. Rekisteröitävien päätteiden valinta kannattaa tehdä yrityksen tai organisaation toimialueen perusteella."
+    },
+    {
+      "id": "B43",
+      "tag": "h3",
+      "text": "Rekisteröi oma fi-domain helposti"
+    },
+    {
+      "id": "B44",
+      "tag": "h2",
+      "text": "Tee domainhaku:"
+    },
+    {
+      "id": "B45",
+      "tag": "p",
+      "text": "Tarkista, onko haluamasi fi-domain vapaana."
+    },
+    {
+      "id": "B46",
+      "tag": "p",
+      "text": "Täytä tarvittavat tiedot ja varaa vapaa verkkotunnuksesi."
+    },
+    {
+      "id": "B47",
+      "tag": "p",
+      "text": "Hoidamme rekisteröinnin ja domainin ylläpidon puolestasi."
+    },
+    {
+      "id": "B48",
+      "tag": "p",
+      "text": "Huomioithan, että emme voi taata verkkotunnuksen saatavuutta kaikissa tilanteissa. Domainhaku pyrkii näyttämään sen hetkisen tilanteen saatavuudesta, mutta tuloksissa voi olla rekistereistä johtuvia virheitä. Osa verkkotunnuksista voi olla myös ns. premium domaineja, jotka näkyvät vapaina, mutta joita korkeamman hinnan vuoksi ei voida toimittaa asiakkaille sivuilla näkyvään hintaan."
+    },
+    {
+      "id": "B49",
+      "tag": "h2",
+      "text": "Usein kysytyt kysymykset"
+    },
+    {
+      "id": "B50",
+      "tag": "h3",
+      "text": "Millainen.fi-domain voi olla?"
+    },
+    {
+      "id": "B51",
+      "tag": "p",
+      "text": "Verkkotunnuksen tulee olla 2-63 merkkiä pitkä. Sallittuja merkkejä ovat kirjaimet, numero, väliviivat (-), kansalliset merkit å, ä ja ö sekä Suomessa puhuttavien saamenkielten merkit."
+    },
+    {
+      "id": "B52",
+      "tag": "p",
+      "text": "Väliviiva ei voi olla ensimmäinen tai viimeinen merkki."
+    },
+    {
+      "id": "B53",
+      "tag": "p",
+      "text": "Vaikka verkkotunnus voi sisältää kansallisia merkkejä, on suositeltavaa rekisteröidä ensisijainen verkkotunnus ilman minkäänlaisia erikoismerkkejä, sillä kaikki selaimet, ohjelmistot ja laitteet eivät mahdollista niiden käyttämistä. Katso, kuinka valita hyvä verkkotunnus."
+    },
+    {
+      "id": "B54",
+      "tag": "h3",
+      "text": "Miten.fi-domain rekisteröidään?"
+    },
+    {
+      "id": "B55",
+      "tag": "p",
+      "text": ".fi-domain rekisteröidään aina Liikenne- ja viestintävirasto Traficomin valtuuttaman verkkotunnusvälittäjän, kuten Zonerin, kautta."
+    },
+    {
+      "id": "B56",
+      "tag": "h3",
+      "text": "Miten voin varmistaa.fi-domainin lainmukaisuuden?"
+    },
+    {
+      "id": "B57",
+      "tag": "p",
+      "text": "Rekisteröitävä.fi-domain ei saa loukata suojattua nimeä tai tavaramerkkiä. Verkkotunnuksen hakijan tulee tarkistaa tämä ennen verkkotunnuksen tilausta. Suojattuja nimiä ja tavaramerkkejä ovat esimerkiksi seuraavat:"
+    },
+    {
+      "id": "B58",
+      "tag": "p",
+      "text": "– Suomen kauppa-, tavaramerkki-, yhdistys-, säätiö- tai puoluerekisteriin merkityt nimet. – Julkisyhteisön, valtion liikelaitoksen tai julkisoikeudellisen yhdistyksen nimet. – Vieraiden valtioiden edustojen ja niiden toimielimien nimet. – Toiminimi- ja tavaramerkkilaissa tarkoitetut vakiintuneet nimet, toissijaiset tunnuksen ja tavaramerkit. – EUIPO:n tavaramerkkirekisteriin merkityt EU-alueen tavaramerkit."
+    },
+    {
+      "id": "B59",
+      "tag": "p",
+      "text": "Voit tarkistaa suojatut nimet Traficomin ohjeiden mukaisesti täältä."
+    },
+    {
+      "id": "B60",
+      "tag": "h3",
+      "text": "Kuka voi rekisteröidä.fi-verkkotunnuksen?"
+    },
+    {
+      "id": "B61",
+      "tag": "p",
+      "text": "Verkkotunnus.fi on mahdollista kenen tahansa rekisteröidä. Sen rekisteröinnille ei ole rajoituksia kansallisuuteen tai asuinpaikkaan liittyen. Verkkotunnus ei kuitenkaan saa loukata Suomessa suojattuja nimiä tai EU:n alueella voimassa olevia tavaramerkkejä eli hakijan tulee varmistaa domainin lainmukaisuus."
+    },
+    {
+      "id": "B62",
+      "tag": "h3",
+      "text": "Miten.fi-verkkotunnus uusitaan?"
+    },
+    {
+      "id": "B63",
+      "tag": "p",
+      "text": ".fi-verkkotunnuksen rekisteröinti on voimassa yhden (1) vuoden kerrallaan. Uusimme verkkotunnuksen automaattisesti puolestasi eli verkkotunnus säilyy omistuksessasi automaattisesti."
+    },
+    {
+      "id": "B64",
+      "tag": "h3",
+      "text": "Tarvitseeko yrityksesi nimen tai logon?"
+    },
+    {
+      "id": "B65",
+      "tag": "p",
+      "text": "Kokeile maksutonta nimigeneraattoria. Voit varata verkkotunnuksen helposti samalla kertaa."
+    },
+    {
+      "id": "B66",
+      "tag": "p",
+      "text": "Maksuton nimigeneraattori"
+    },
+    {
+      "id": "B67",
+      "tag": "h3",
+      "text": "Tarvitseeko yrityksesi nimen tai logon?"
+    },
+    {
+      "id": "B68",
+      "tag": "p",
+      "text": "Kokeile maksutonta nimigeneraattoria. Voit varata verkkotunnuksen helposti samalla kertaa."
+    },
+    {
+      "id": "B69",
+      "tag": "p",
+      "text": "Olemme täällä sinua varten"
+    },
+    {
+      "id": "B70",
+      "tag": "h2",
+      "text": "Ota yhteyttä asiantuntijaamme"
+    }
+  ],
+  "current": {
+    "title": "fi-domain | Rekisteröi omasi 10,80 €/vuosi | zoner.fi",
+    "meta_description": "fi-domain helposti ja nopeasti Zonerilta. Suomalainen domain pääte antaa luotettavan kuvan. Katso, onko haluamasi domain vapaana ja varaa!"
+  },
+  "geo": {
+    "answer_first": {
+      "score": 2,
+      "reason": "The opening blocks are a generic tagline, a heading and the history of .fi. The price, who registers the domain and how registration works only appear further down the page, so an AI answer has to piece the core facts together from several places.",
+      "evidence": "Fi-domain on Suomen internet-maatunnus, joka on ollut käytössä aina vuodesta 1986."
+    },
+    "question_coverage": {
+      "score": 4,
+      "reason": "The FAQ covers the main buyer questions: allowed characters, how to register, legality, who can register and renewal. Price and transfer are answered only outside the FAQ, and there is no FAQ entry on VAT.",
+      "evidence": "Kuka voi rekisteröidä.fi-verkkotunnuksen?"
+    },
+    "concrete_facts": {
+      "score": 4,
+      "reason": "Strong on concrete facts: first-year and renewal prices for six TLDs, the 2–63 character rule, 1986 and 2005. The trust stats (B6–B9) have labels but no visible numbers in the extracted text, possibly because they are rendered by JS, so crawlers may see empty claims.",
+      "evidence": "Verkkotunnuksen tulee olla 2-63 merkkiä pitkä."
+    },
+    "entity_clarity": {
+      "score": 3,
+      "reason": "The page says 'we' are a Traficom-accredited registrar, but the body never says what Zoner is. 'Zoner' appears only in passing, so AI answers can't easily attribute the claims.",
+      "evidence": "Olemme Traficomin valtuuttama virallinen.fi-verkkotunnusvälittäjä"
+    },
+    "citability": {
+      "score": 3,
+      "reason": "Some sentences can be quoted as-is (e.g. B55). Many others lean on 'we' or have awkward word order. Missing spaces before '.fi' recur throughout (e.g. 'oma.fi-domain', 'Tällöin.fi-domain'), and these garble quotes. That is probably a template issue worth fixing site-wide.",
+      "evidence": ".fi-domain rekisteröidään aina Liikenne- ja viestintävirasto Traficomin valtuuttaman verkkotunnusvälittäjän, kuten Zonerin, kautta."
+    },
+    "freshness": {
+      "score": 4,
+      "reason": "No stale years or outdated claims. The Ficora reference is correctly marked as former. Prices have no 'valid from' date or VAT note, so freshness can't be verified.",
+      "evidence": "Traficomin (ent. Ficora) hallinnoima"
+    }
+  },
+  "edits": [
+    {
+      "type": "replace",
+      "target": "title",
+      "old": "fi-domain | Rekisteröi omasi 10,80 €/vuosi | zoner.fi",
+      "new": ".fi-domain 1. vuosi 10,80 € | Rekisteröi omasi - Zoner Oy",
+      "reason": "Adds the standard brand suffix. It also removes '10,80 €/vuosi', which suggests a recurring yearly price even though renewal costs 26,40 €.",
+      "fixes": [
+        "title.brand",
+        "geo.concrete_facts"
+      ]
+    },
+    {
+      "type": "replace",
+      "target": "meta_description",
+      "old": "fi-domain helposti ja nopeasti Zonerilta. Suomalainen domain pääte antaa luotettavan kuvan. Katso, onko haluamasi domain vapaana ja varaa!",
+      "new": "Rekisteröi .fi-domain Zonerilta, Traficomin valtuuttamalta välittäjältä. 1. vuosi 10,80 €, sen jälkeen 26,40 €. Tarkista, onko haluamasi domain vapaana, ja varaa se!",
+      "reason": "Replaces a generic claim and fixes the spelling error 'domain pääte' with concrete facts already on the page: accreditation and both prices.",
+      "fixes": [
+        "geo.concrete_facts",
+        "geo.entity_clarity"
+      ]
+    },
+    {
+      "type": "insert_after",
+      "target": "B2",
+      "old": "",
+      "new": "<p>Zoner Oy on [TARKISTA: lyhyt kuvaus yrityksestä, esim. toimiala ja kotipaikka] ja Traficomin valtuuttama .fi-verkkotunnusvälittäjä. Zonerilla .fi-domain maksaa ensimmäisenä vuonna 10,80 € ja sen jälkeen 26,40 €. Rekisteröinti on voimassa vuoden kerrallaan, ja uusimme sen automaattisesti.</p>",
+      "reason": "Adds a clear 'Zoner is…' sentence and puts the key answer (price, accreditation, renewal) first. All facts come from B12–B13, B36 and B63. The company description is left as a placeholder.",
+      "fixes": [
+        "geo.entity",
+        "geo.answer_first",
+        "geo.citability"
+      ]
+    },
+    {
+      "type": "replace",
+      "target": "B3",
+      "old": "Domain.fi on Liikenne- ja viestintävirasto Traficomin (ent. Ficora) hallinnoima.",
+      "new": "Fi-verkkotunnuksia hallinnoi Liikenne- ja viestintävirasto Traficom (ent. Ficora).",
+      "reason": "'Domain.fi' reads like a specific domain name. The passive participle construction is also clunky. The active sentence is clearer and easier to quote.",
+      "fixes": [
+        "geo.citability"
+      ]
+    },
+    {
+      "type": "replace",
+      "target": "B42",
+      "old": "Yleensä kannattaa rekisteröidä.fi-domainin lisäksi muut tunnetut päätteet, esimerkiksi.com,.org tai.se. Rekisteröitävien päätteiden valinta kannattaa tehdä yrityksen tai organisaation toimialueen perusteella.",
+      "new": "Yleensä kannattaa rekisteröidä .fi-domainin lisäksi muut tunnetut päätteet, esimerkiksi .com, .org tai .se. Valitse päätteet yrityksen tai organisaation toimialueen mukaan.",
+      "reason": "Fixes the missing spaces before TLDs and the nominal style ('valinta kannattaa tehdä'). The same missing-space bug appears in B2, B35, B36, B41, B50 and other blocks and should be fixed in the template.",
+      "fixes": [
+        "geo.citability"
+      ]
+    },
+    {
+      "type": "replace",
+      "target": "B59",
+      "old": "Voit tarkistaa suojatut nimet Traficomin ohjeiden mukaisesti täältä.",
+      "new": "Lue suojattujen nimien tarkistamisesta Traficomin ohjeesta.",
+      "reason": "Replaces the generic anchor 'täältä'. The link should move to the words 'Traficomin ohjeesta' so users and Google know where it leads.",
+      "fixes": [
+        "links.anchor_text"
+      ]
+    },
+    {
+      "type": "replace",
+      "target": "B61",
+      "old": "Verkkotunnus.fi on mahdollista kenen tahansa rekisteröidä. Sen rekisteröinnille ei ole rajoituksia kansallisuuteen tai asuinpaikkaan liittyen.",
+      "new": "Kuka tahansa voi rekisteröidä .fi-verkkotunnuksen. Kansallisuus tai asuinpaikka ei rajoita rekisteröintiä.",
+      "reason": "This is the direct answer to the FAQ question, but it was in awkward, translated-sounding Finnish. The new version opens with a short, self-contained sentence an AI can quote.",
+      "fixes": [
+        "geo.citability",
+        "geo.answer_first"
+      ]
+    },
+    {
+      "type": "insert_after",
+      "target": "B63",
+      "old": "",
+      "new": "<h3>Paljonko .fi-domain maksaa?</h3><p>Zonerilla .fi-domain maksaa ensimmäisenä vuonna 10,80 € ja sen jälkeen 26,40 €. [TARKISTA: sisältävätkö hinnat arvonlisäveron]</p><h3>Miten siirrän .fi-domainin Zonerille?</h3><p>Pyydä välittäjänvaihtoavain nykyiseltä palveluntarjoajaltasi ja ilmoita se jo tilausvaiheessa. Silloin domain siirtyy Zonerille nopeammin, ja hallinnoit sitä Zonerin palveluiden kautta.</p>",
+      "reason": "Adds the two most common buyer questions (price and transfer) to the FAQ, using facts from B12–B13 and B40–B41. Developers should also add FAQPage schema to the whole FAQ and give the 6 empty links aria-labels. Neither can be fixed through the page text.",
+      "fixes": [
+        "geo.question_coverage",
+        "geo.concrete_facts"
+      ]
+    }
+  ]
+}

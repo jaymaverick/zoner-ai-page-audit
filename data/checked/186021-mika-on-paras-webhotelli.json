@@ -1,0 +1,160 @@
+{
+  "id": 186021,
+  "slug": "mika-on-paras-webhotelli",
+  "counts": {
+    "PASS": 2,
+    "WARN": 6,
+    "FAIL": 0
+  },
+  "edits": [
+    {
+      "type": "replace",
+      "target": "title",
+      "old": "Mikä on paras webhotelli juuri sinulle 2026? - Zoner Oy",
+      "new": "Mikä on paras webhotelli? Vertailu ja valintavinkit – Zoner Oy",
+      "reason": "Removes the year that expires in weeks and adds 'vertailu' for the 'webhotelli vertailu' query (2,600 impressions, position 11.3). The H2 in B1 still carries 2026 for the 'paras webhotelli 2026' query; update it each January.",
+      "fixes": [
+        "dates.year",
+        "geo.freshness"
+      ],
+      "status": "WARN",
+      "issues": [
+        {
+          "check": "length",
+          "level": "WARN",
+          "message": "New title is 62 characters (limit 30-60)."
+        },
+        {
+          "check": "length",
+          "level": "WARN",
+          "message": "New title doesn't end with '- Zoner Oy'."
+        }
+      ]
+    },
+    {
+      "type": "replace",
+      "target": "meta_description",
+      "old": "Kun aikeissa on rakentaa kotisivut – oli se blogi, yrityksen sivusto tai verkkokauppa, yksi keskeisimmistä päätöksistä on valita paras webhotelli.",
+      "new": "Mikä webhotelli kannattaa valita? Vertaa nopeutta, käytettävyyttä, turvallisuutta, asiakastukea ja hintaa. Katso tarkistuslista ja Zonerin webhotellien vertailu.",
+      "reason": "The current description restates the problem without a benefit, and CTR is only 0.6–1.9%. The new one answers the question, lists the criteria and uses the wording of 'mikä webhotelli kannattaa' and 'webhotelli vertailu'.",
+      "fixes": [
+        "geo.answer_first"
+      ],
+      "status": "WARN",
+      "issues": [
+        {
+          "check": "length",
+          "level": "WARN",
+          "message": "New meta_description is 161 characters (limit 120-160)."
+        }
+      ]
+    },
+    {
+      "type": "replace",
+      "target": "B2",
+      "old": "Tässä artikkelissa pureudutaan siihen, mitä tarkoittaa “paras webhotelli”, miten valita sopiva palvelu ja miksi Zoner voi olla erinomainen valinta.",
+      "new": "Paras webhotelli on se, joka sopii sivustosi tarpeisiin ja budjettiin. Tärkeimmät valintaperusteet ovat nopeus, käytettävyys, turvallisuus, skaalautuvuus, asiakastuki ja hinta. Zoner Oy on kotimainen webhotellipalvelujen tarjoaja, jonka palvelimet sijaitsevat Telia Helsinki Data Centerissä Helsingin Pitäjänmäellä. Kerromme, miten sopiva palvelu valitaan ja millaisia webhotelleja Zoner tarjoaa.",
+      "reason": "Puts a direct, quotable answer in the first paragraph and adds a 'Zoner is…' sentence built only from facts already on the page (B45, B65), so AI answers know who is speaking.",
+      "fixes": [
+        "geo.entity",
+        "geo.answer_first",
+        "geo.entity_clarity"
+      ],
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "type": "replace",
+      "target": "B41",
+      "old": "jos sivustolla oli laajampi yleisö.",
+      "new": "jos sivustolla on laajempi yleisö.",
+      "reason": "Fixes a tense error ('oli' → 'on') that makes the sentence read as clumsy machine Finnish.",
+      "fixes": [
+        "geo.citability"
+      ],
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "type": "replace",
+      "target": "B42",
+      "old": "Vertailusivustojen mukaan Suomessa nopeimpien palveluntarjoajien joukossa ovat olleet mm. Polar55, Domainhotelli ja Zoner.",
+      "new": "Vertailusivustojen [TARKISTA: lähde ja testin päivämäärä] mukaan Suomen nopeimpia webhotelleja ovat olleet muun muassa Polar55, Domainhotelli ja Zoner.",
+      "reason": "A speed claim with no source or date is hard for AI to cite and may be outdated. The placeholder asks the team to name the source and test date. The wording is also lighter.",
+      "fixes": [
+        "geo.citability",
+        "geo.freshness"
+      ],
+      "status": "WARN",
+      "issues": [
+        {
+          "check": "placeholder",
+          "level": "WARN",
+          "message": "Needs a fact from a human: [TARKISTA: lähde ja testin päivämäärä]"
+        },
+        {
+          "check": "links",
+          "level": "WARN",
+          "message": "Block B42 contains strong (e.g. []). Replacing its text would remove them; apply this edit by hand in the editor."
+        }
+      ]
+    },
+    {
+      "type": "replace",
+      "target": "B50",
+      "old": "Verkosta löytyy useita sivustoja, jotka webhotelli vertailuja. Tässä esimerkki Webhotellivertailu",
+      "new": "Verkosta löytyy useita sivustoja, jotka vertailevat webhotelleja. Yksi esimerkki on Webhotellivertailu.",
+      "reason": "The caption is missing its verb and is ungrammatical. Visible errors lower trust for readers and AI systems.",
+      "fixes": [
+        "geo.citability"
+      ],
+      "status": "WARN",
+      "issues": [
+        {
+          "check": "links",
+          "level": "WARN",
+          "message": "Block B50 contains a, em (e.g. ['http://www.webhotellivertailu2.fi']). Replacing its text would remove them; apply this edit by hand in the editor."
+        }
+      ]
+    },
+    {
+      "type": "replace",
+      "target": "B70",
+      "old": "Voit sisällyttää artikkeliin linkin Zoner Webhotelli vertailusivulle.",
+      "new": "Katso pakettien erot Zonerin webhotellien vertailusivulta.",
+      "reason": "This is a leftover drafting instruction ('you can include a link…') published as body text. It becomes a real call to action. Check that the link points to the comparison page.",
+      "fixes": [
+        "geo.freshness",
+        "geo.entity_clarity"
+      ],
+      "status": "WARN",
+      "issues": [
+        {
+          "check": "links",
+          "level": "WARN",
+          "message": "Block B70 contains a (e.g. ['https://www.zoner.fi/webhotellit/webhotelli-vertailu?utm_source=chatgpt.com']). Replacing its text would remove them; apply this edit by hand in the editor."
+        }
+      ]
+    },
+    {
+      "type": "insert_after",
+      "target": "B80",
+      "old": "",
+      "new": "<h2>Usein kysytyt kysymykset webhotellin valinnasta</h2>\n<h3>Mikä on paras webhotelli?</h3>\n<p>Paras webhotelli riippuu sivustosi tarpeista. Vertaa ainakin nopeutta, käytettävyyttä, turvallisuutta, skaalautuvuutta, asiakastukea ja hintaa. Jos suurin osa kävijöistä on Suomessa, kotimainen webhotelli on usein hyvä valinta.</p>\n<h3>Miten webhotelleja kannattaa vertailla?</h3>\n<p>Arvioi ensin, kuinka paljon liikennettä ja tallennustilaa sivustosi tarvitsee. Tarkista sitten nopeuden ja käytettävyyden testitulokset, asiakastuen yhteydenottotavat ja hinnoittelun selkeys. Vertailusivustot, kuten Webhotellivertailu, auttavat rajaamaan vaihtoehtoja.</p>\n<h3>Kannattaako valita kotimainen vai kansainvälinen webhotelli?</h3>\n<p>Kotimaisen webhotellin palvelimet ovat Suomessa, joten viive on suomalaisille kävijöille pienempi ja asiakastuki toimii suomeksi. Kansainvälinen webhotelli sopii, jos tarvitset datakeskuksia ympäri maailmaa tai pilvipohjaista skaalautuvuutta.</p>\n<h3>Mitä Zonerin webhotellipaketit sisältävät?</h3>\n<p>Kaikki Zonerin webhotellipaketit sisältävät domainin, SSL-sertifikaatin ja Installatron-asennusohjelman. Paketit eroavat toisistaan levytilan, liikennöinnin ja sähköpostimahdollisuuksien osalta. Hinnat: [TARKISTA: pakettien nimet ja hinnat].</p>\n<h3>Missä Zonerin palvelimet sijaitsevat?</h3>\n<p>Zonerin palvelimet sijaitsevat Telia Helsinki Data Centerissä Helsingin Pitäjänmäellä.</p>\n<h3>Voiko webhotellipaketin vaihtaa isompaan?</h3>\n<p>Voi. Zonerilla voit siirtyä suurempaan pakettiin, kun sivustosi kasvaa.</p>",
+      "reason": "Adds a short FAQ that uses the page's top queries and only facts already on the page. Mark this section up with FAQPage JSON-LD when publishing to also resolve the schema.geo finding.",
+      "fixes": [
+        "geo.faq",
+        "geo.question_coverage",
+        "geo.citability"
+      ],
+      "status": "WARN",
+      "issues": [
+        {
+          "check": "placeholder",
+          "level": "WARN",
+          "message": "Needs a fact from a human: [TARKISTA: pakettien nimet ja hinnat]"
+        }
+      ]
+    }
+  ]
+}

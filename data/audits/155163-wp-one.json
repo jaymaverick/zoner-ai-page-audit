@@ -1,0 +1,60 @@
+{
+  "id": 155163,
+  "slug": "wp-one",
+  "url": "https://www.zoner.fi/wordpress/wp-one/",
+  "audited_at": "2026-11-18",
+  "counts": {
+    "low": 4
+  },
+  "findings": [
+    {
+      "check": "title.brand",
+      "severity": "low",
+      "message": "Title doesn't end with the standard brand suffix '- Zoner Oy'.",
+      "evidence": {
+        "title": "WP.one WordPress ylläpito - Nopea, turvallinen ja luotettava"
+      }
+    },
+    {
+      "check": "links.anchor_text",
+      "severity": "low",
+      "message": "1 links use generic text like 'Lue lisää'.",
+      "evidence": {
+        "examples": [
+          "Lue lisää → /wordpress/wp-palvelu-ammattilaisille/"
+        ]
+      }
+    },
+    {
+      "check": "links.empty_text",
+      "severity": "low",
+      "message": "4 links have no readable name; screen readers announce just 'link' and Google gets no hint about the target page.",
+      "evidence": {
+        "examples": [
+          "https://nuts.fi/",
+          "https://denta.fi/",
+          "https://accranes.fi/",
+          "https://vam.fi/"
+        ]
+      }
+    },
+    {
+      "check": "schema.geo",
+      "severity": "low",
+      "message": "No FAQPage schema; Q&A markup helps AI answers quote the page.",
+      "evidence": {
+        "found": [
+          "Article",
+          "BreadcrumbList",
+          "ImageObject",
+          "ListItem",
+          "Organization",
+          "Person",
+          "VideoObject",
+          "WebPage",
+          "WebSite"
+        ]
+      }
+    }
+  ]
+}

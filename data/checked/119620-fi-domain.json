@@ -1,0 +1,137 @@
+{
+  "id": 119620,
+  "slug": "fi-domain",
+  "counts": {
+    "PASS": 4,
+    "WARN": 4,
+    "FAIL": 0
+  },
+  "edits": [
+    {
+      "type": "replace",
+      "target": "title",
+      "old": "fi-domain | Rekisteröi omasi 10,80 €/vuosi | zoner.fi",
+      "new": ".fi-domain 1. vuosi 10,80 € | Rekisteröi omasi - Zoner Oy",
+      "reason": "Adds the standard brand suffix. It also removes '10,80 €/vuosi', which suggests a recurring yearly price even though renewal costs 26,40 €.",
+      "fixes": [
+        "title.brand",
+        "geo.concrete_facts"
+      ],
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "type": "replace",
+      "target": "meta_description",
+      "old": "fi-domain helposti ja nopeasti Zonerilta. Suomalainen domain pääte antaa luotettavan kuvan. Katso, onko haluamasi domain vapaana ja varaa!",
+      "new": "Rekisteröi .fi-domain Zonerilta, Traficomin valtuuttamalta välittäjältä. 1. vuosi 10,80 €, sen jälkeen 26,40 €. Tarkista, onko haluamasi domain vapaana, ja varaa se!",
+      "reason": "Replaces a generic claim and fixes the spelling error 'domain pääte' with concrete facts already on the page: accreditation and both prices.",
+      "fixes": [
+        "geo.concrete_facts",
+        "geo.entity_clarity"
+      ],
+      "status": "WARN",
+      "issues": [
+        {
+          "check": "length",
+          "level": "WARN",
+          "message": "New meta_description is 165 characters (limit 120-160)."
+        }
+      ]
+    },
+    {
+      "type": "insert_after",
+      "target": "B2",
+      "old": "",
+      "new": "<p>Zoner Oy on [TARKISTA: lyhyt kuvaus yrityksestä, esim. toimiala ja kotipaikka] ja Traficomin valtuuttama .fi-verkkotunnusvälittäjä. Zonerilla .fi-domain maksaa ensimmäisenä vuonna 10,80 € ja sen jälkeen 26,40 €. Rekisteröinti on voimassa vuoden kerrallaan, ja uusimme sen automaattisesti.</p>",
+      "reason": "Adds a clear 'Zoner is…' sentence and puts the key answer (price, accreditation, renewal) first. All facts come from B12–B13, B36 and B63. The company description is left as a placeholder.",
+      "fixes": [
+        "geo.entity",
+        "geo.answer_first",
+        "geo.citability"
+      ],
+      "status": "WARN",
+      "issues": [
+        {
+          "check": "placeholder",
+          "level": "WARN",
+          "message": "Needs a fact from a human: [TARKISTA: lyhyt kuvaus yrityksestä, esim. toimiala ja kotipaikka]"
+        }
+      ]
+    },
+    {
+      "type": "replace",
+      "target": "B3",
+      "old": "Domain.fi on Liikenne- ja viestintävirasto Traficomin (ent. Ficora) hallinnoima.",
+      "new": "Fi-verkkotunnuksia hallinnoi Liikenne- ja viestintävirasto Traficom (ent. Ficora).",
+      "reason": "'Domain.fi' reads like a specific domain name. The passive participle construction is also clunky. The active sentence is clearer and easier to quote.",
+      "fixes": [
+        "geo.citability"
+      ],
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "type": "replace",
+      "target": "B42",
+      "old": "Yleensä kannattaa rekisteröidä.fi-domainin lisäksi muut tunnetut päätteet, esimerkiksi.com,.org tai.se. Rekisteröitävien päätteiden valinta kannattaa tehdä yrityksen tai organisaation toimialueen perusteella.",
+      "new": "Yleensä kannattaa rekisteröidä .fi-domainin lisäksi muut tunnetut päätteet, esimerkiksi .com, .org tai .se. Valitse päätteet yrityksen tai organisaation toimialueen mukaan.",
+      "reason": "Fixes the missing spaces before TLDs and the nominal style ('valinta kannattaa tehdä'). The same missing-space bug appears in B2, B35, B36, B41, B50 and other blocks and should be fixed in the template.",
+      "fixes": [
+        "geo.citability"
+      ],
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "type": "replace",
+      "target": "B59",
+      "old": "Voit tarkistaa suojatut nimet Traficomin ohjeiden mukaisesti täältä.",
+      "new": "Lue suojattujen nimien tarkistamisesta Traficomin ohjeesta.",
+      "reason": "Replaces the generic anchor 'täältä'. The link should move to the words 'Traficomin ohjeesta' so users and Google know where it leads.",
+      "fixes": [
+        "links.anchor_text"
+      ],
+      "status": "WARN",
+      "issues": [
+        {
+          "check": "links",
+          "level": "WARN",
+          "message": "Block B59 contains a (e.g. ['https://www.traficom.fi/fi/viestinta/fi-verkkotunnukset/varmista-fi-verkkotunnuksesi-lainmukaisuus']). Replacing its text would remove them; apply this edit by hand in the editor."
+        }
+      ]
+    },
+    {
+      "type": "replace",
+      "target": "B61",
+      "old": "Verkkotunnus.fi on mahdollista kenen tahansa rekisteröidä. Sen rekisteröinnille ei ole rajoituksia kansallisuuteen tai asuinpaikkaan liittyen.",
+      "new": "Kuka tahansa voi rekisteröidä .fi-verkkotunnuksen. Kansallisuus tai asuinpaikka ei rajoita rekisteröintiä.",
+      "reason": "This is the direct answer to the FAQ question, but it was in awkward, translated-sounding Finnish. The new version opens with a short, self-contained sentence an AI can quote.",
+      "fixes": [
+        "geo.citability",
+        "geo.answer_first"
+      ],
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "type": "insert_after",
+      "target": "B63",
+      "old": "",
+      "new": "<h3>Paljonko .fi-domain maksaa?</h3><p>Zonerilla .fi-domain maksaa ensimmäisenä vuonna 10,80 € ja sen jälkeen 26,40 €. [TARKISTA: sisältävätkö hinnat arvonlisäveron]</p><h3>Miten siirrän .fi-domainin Zonerille?</h3><p>Pyydä välittäjänvaihtoavain nykyiseltä palveluntarjoajaltasi ja ilmoita se jo tilausvaiheessa. Silloin domain siirtyy Zonerille nopeammin, ja hallinnoit sitä Zonerin palveluiden kautta.</p>",
+      "reason": "Adds the two most common buyer questions (price and transfer) to the FAQ, using facts from B12–B13 and B40–B41. Developers should also add FAQPage schema to the whole FAQ and give the 6 empty links aria-labels. Neither can be fixed through the page text.",
+      "fixes": [
+        "geo.question_coverage",
+        "geo.concrete_facts"
+      ],
+      "status": "WARN",
+      "issues": [
+        {
+          "check": "placeholder",
+          "level": "WARN",
+          "message": "Needs a fact from a human: [TARKISTA: sisältävätkö hinnat arvonlisäveron]"
+        }
+      ]
+    }
+  ]
+}

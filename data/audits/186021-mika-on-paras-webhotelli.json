@@ -1,0 +1,51 @@
+{
+  "id": 186021,
+  "slug": "mika-on-paras-webhotelli",
+  "url": "https://www.zoner.fi/webhotellit/mika-on-paras-webhotelli/",
+  "audited_at": "2026-11-18",
+  "counts": {
+    "medium": 1,
+    "low": 3
+  },
+  "findings": [
+    {
+      "check": "geo.faq",
+      "severity": "medium",
+      "message": "No FAQ section; short Q&A pairs are the easiest content for AI to cite.",
+      "evidence": {}
+    },
+    {
+      "check": "schema.geo",
+      "severity": "low",
+      "message": "No FAQPage schema; Q&A markup helps AI answers quote the page.",
+      "evidence": {
+        "found": [
+          "Article",
+          "BreadcrumbList",
+          "ImageObject",
+          "ListItem",
+          "Organization",
+          "Person",
+          "WebPage",
+          "WebSite"
+        ]
+      }
+    },
+    {
+      "check": "geo.entity",
+      "severity": "low",
+      "message": "No clear 'Zoner is…' sentence; AI answers need to know who is speaking.",
+      "evidence": {}
+    },
+    {
+      "check": "dates.year",
+      "severity": "low",
+      "message": "Year 2026 in the title is or will soon be out of date.",
+      "evidence": {
+        "where": [
+          "title"
+        ]
+      }
+    }
+  ]
+}

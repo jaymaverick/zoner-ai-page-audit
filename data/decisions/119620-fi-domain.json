@@ -1,0 +1,94 @@
+{
+  "id": 119620,
+  "slug": "fi-domain",
+  "edits": [
+    {
+      "i": 1,
+      "decision": "accept",
+      "new": ".fi-domain 1. vuosi 10,80 € | Rekisteröi omasi - Zoner Oy",
+      "reason": "",
+      "issues": [],
+      "passes": true
+    },
+    {
+      "i": 2,
+      "decision": "reject",
+      "new": "Rekisteröi .fi-domain Zonerilta, Traficomin valtuuttamalta välittäjältä. 1. vuosi 10,80 €, sen jälkeen 26,40 €. Tarkista, onko haluamasi domain vapaana, ja varaa se!",
+      "reason": "",
+      "issues": [
+        {
+          "check": "length",
+          "level": "WARN",
+          "message": "New meta_description is 165 characters (limit 120-160)."
+        }
+      ],
+      "passes": true
+    },
+    {
+      "i": 3,
+      "decision": "reject",
+      "new": "<p>Zoner Oy on [TARKISTA: lyhyt kuvaus yrityksestä, esim. toimiala ja kotipaikka] ja Traficomin valtuuttama .fi-verkkotunnusvälittäjä. Zonerilla .fi-domain maksaa ensimmäisenä vuonna 10,80 € ja sen jälkeen 26,40 €. Rekisteröinti on voimassa vuoden kerrallaan, ja uusimme sen automaattisesti.</p>",
+      "reason": "",
+      "issues": [
+        {
+          "check": "placeholder",
+          "level": "WARN",
+          "message": "Needs a fact from a human: [TARKISTA: lyhyt kuvaus yrityksestä, esim. toimiala ja kotipaikka]"
+        }
+      ],
+      "passes": true
+    },
+    {
+      "i": 4,
+      "decision": "accept",
+      "new": "Fi-verkkotunnuksia hallinnoi Liikenne- ja viestintävirasto Traficom (ent. Ficora).",
+      "reason": "",
+      "issues": [],
+      "passes": true
+    },
+    {
+      "i": 5,
+      "decision": "accept",
+      "new": "Yleensä kannattaa rekisteröidä .fi-domainin lisäksi muut tunnetut päätteet, esimerkiksi .com, .org tai .se. Valitse päätteet yrityksen tai organisaation toimialueen mukaan.",
+      "reason": "",
+      "issues": [],
+      "passes": true
+    },
+    {
+      "i": 6,
+      "decision": "reject",
+      "new": "Lue suojattujen nimien tarkistamisesta Traficomin ohjeesta.",
+      "reason": "",
+      "issues": [
+        {
+          "check": "links",
+          "level": "WARN",
+          "message": "Block B59 contains a (e.g. ['https://www.traficom.fi/fi/viestinta/fi-verkkotunnukset/varmista-fi-verkkotunnuksesi-lainmukaisuus']). Replacing its text would remove them; apply this edit by hand in the editor."
+        }
+      ],
+      "passes": true
+    },
+    {
+      "i": 7,
+      "decision": "accept",
+      "new": "Kuka tahansa voi rekisteröidä .fi-verkkotunnuksen. Kansallisuus tai asuinpaikka ei rajoita rekisteröintiä.",
+      "reason": "",
+      "issues": [],
+      "passes": true
+    },
+    {
+      "i": 8,
+      "decision": "accept",
+      "new": "<h3>Paljonko .fi-domain maksaa?</h3><p>Zonerilla .fi-domain maksaa ensimmäisenä vuonna 10,80 € ja sen jälkeen 26,40 €. [TARKISTA: sisältävätkö hinnat arvonlisäveron]</p><h3>Miten siirrän .fi-domainin Zonerille?</h3><p>Pyydä välittäjänvaihtoavain nykyiseltä palveluntarjoajaltasi ja ilmoita se jo tilausvaiheessa. Silloin domain siirtyy Zonerille nopeammin, ja hallinnoit sitä Zonerin palveluiden kautta.</p>",
+      "reason": "",
+      "issues": [
+        {
+          "check": "placeholder",
+          "level": "WARN",
+          "message": "Needs a fact from a human: [TARKISTA: sisältävätkö hinnat arvonlisäveron]"
+        }
+      ],
+      "passes": true
+    }
+  ]
+}

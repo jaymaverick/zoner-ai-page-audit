@@ -1,0 +1,53 @@
+{
+  "id": 245,
+  "slug": "webhotellit",
+  "url": "https://www.zoner.fi/webhotellit/",
+  "audited_at": "2026-11-17",
+  "counts": {
+    "low": 4
+  },
+  "findings": [
+    {
+      "check": "title.brand",
+      "severity": "low",
+      "message": "Title doesn't end with the standard brand suffix '- Zoner Oy'.",
+      "evidence": {
+        "title": "Laadukas ja nopea kotimainen webhotelli nyt alkaen 4,95 €/kk"
+      }
+    },
+    {
+      "check": "headings.skip",
+      "severity": "low",
+      "message": "Heading level jumps from H1 to H3.",
+      "evidence": {
+        "heading": "Mitä ominaisuuksia saat aina, kun tilaat Zonerin Webhotellin"
+      }
+    },
+    {
+      "check": "schema.geo",
+      "severity": "low",
+      "message": "No FAQPage schema; Q&A markup helps AI answers quote the page.",
+      "evidence": {
+        "found": [
+          "Brand",
+          "BreadcrumbList",
+          "ImageObject",
+          "ItemPage",
+          "ListItem",
+          "Offer",
+          "Organization",
+          "Product",
+          "VideoObject",
+          "WebPage",
+          "WebSite"
+        ]
+      }
+    },
+    {
+      "check": "geo.entity",
+      "severity": "low",
+      "message": "No clear 'Zoner is…' sentence; AI answers need to know who is speaking.",
+      "evidence": {}
+    }
+  ]
+}
